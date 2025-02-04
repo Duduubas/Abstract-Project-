@@ -1,0 +1,169 @@
+/* Main Styles */
+.main {
+    padding-top: 80px; /* Espaço para a navbar fixa */
+}
+
+/* Search Section */
+.search-section {
+    background-color: #dadbf1;
+    padding: 11rem 1rem;
+    text-align: center;
+}
+
+.search-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.search-container h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.search-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+}
+.search-box:hover{
+    border: 0;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    outline: none;
+    outline: none;
+    border: 1px solid black;  /* borda padrão */
+}
+
+.search-box button {
+    position: absolute;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    color: blue;
+}
+
+/* Options Section */
+.options-section {
+    padding: 4rem 1rem;
+}
+
+.options-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 2rem;
+}
+
+.option-card {
+    align-items: flex-start; /* Alinha os itens ao topo */
+    gap: 30px;              /* Espaço entre a imagem e o texto */
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Container para o texto */
+.option-card-content {
+    flex: 1;              /* Permite que o texto ocupe o espaço restante */
+}
+
+.option-card img {
+    width: 100px;           /* Largura fixa da imagem */
+    flex-shrink: 0;        /* Impede que a imagem encolha */
+}
+
+.option-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.option-description {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.learn-more {
+    color: #4C5FD5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 4rem 1rem;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .search-container h1 {
+        font-size: 2rem;
+    }
+
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+}

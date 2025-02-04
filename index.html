@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Project</title>
+
+    <!-- ARQUIVOS DE CONFIGURAÇÃO -->
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/vars.css">
+
+
+    <!-- ARQUIVOS DE PERSONALIZAÇÃO -->
+    <link rel="stylesheet" href="src/styles/navbar.css">
+    <link rel="stylesheet" href="src/styles/main.css">
+    
+
+
+    <!-- IMPORT PARA OS ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="layout">
+            <div class="navbar">
+                <nav class="navbar__content">
+                    <div class="logo">
+                        <img src="/src/assets/icons/logo.svg" alt="Logo">
+                        <span class="divider"> | </span>
+                        <a href="#">Help Center</a>
+                    </div>
+    
+                    <div class="navbar__content__buttons">
+                        <div class="opc-bar">
+                            <div class="opc-bar__buttonsubmit">
+                                <button type="button" onclick="window.location.href='#';">
+                                    <span>Submit a request</span>
+                                </button>
+                            </div>
+                        </div>
+    
+                        <div class="opc-bar">
+                            <div class="opc-bar__buttonsign">
+                                <button type="button" onclick="window.location.href='#';">
+                                    <span>Sign in</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Seção de Pesquisa -->
+        <section class="search-section">
+            <div class="search-container">
+                <h1>How can we help?</h1>
+                <div class="search-box">
+                    <input type="text" placeholder="Search" autocomplete="off">
+                    <button type="submit" aria-label="Search">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Seção de Opções -->
+        <section class="options-section">
+            <div class="options-container">
+                <div class="options-grid">
+                    <!-- Card 1 -->
+                    <article class="option-card">
+                        <img src="./src/assets/imgs/card1.png" alt="card 1">
+                    <div class="option-card-content">
+                        <h2 class="option-title">Branches</h2>
+                        <p class="option-description">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus lobortis dui in primis massa sit etiam tempor odio. Vivamus class cubilia libero id, hendrerit dolor erat lobortis.
+                        </p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                    </article>
+
+                    <!-- Card 2 -->
+                    <article class="option-card">
+                        <div class="option-card-content">
+                        <img src="./src/assets/imgs/card2.png" alt="card 1">
+                        <h2 class="option-title">Manage organizations, teams, and projects</h2>
+                        <p class="option-description">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus lobortis dui in primis massa sit etiam tempor odio. Vivamus class cubilia libero id, hendrerit dolor erat lobortis.
+                        </p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                    </article>
+
+                    <!-- Card 3 -->
+                    <article class="option-card">
+                        <div class="option-card-content">
+                        <img src="./src/assets/imgs/card3.png" alt="card 1">
+                        <h2 class="option-title">Authenticate to Abstract</h2>
+                        <p class="option-description">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus lobortis dui in primis massa sit etiam tempor odio. Vivamus class cubilia libero id, hendrerit dolor erat lobortis.
+                        </p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                    </article>
+
+                    <!-- Card 4 -->
+                    <article class="option-card">
+                        <div class="option-card-content">
+                        <img src="./src/assets/imgs/card4.png" alt="card 1">
+                        <h2 class="option-title">Manage your account</h2>
+                        <p class="option-description">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus lobortis dui in primis massa sit etiam tempor odio. Vivamus class cubilia libero id, hendrerit dolor erat lobortis.
+                        </p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                    </article>
+
+                    <!-- Card 5 -->
+                    <article class="option-card">
+                        <div class="option-card-content">
+                        <img src="./src/assets/imgs/card5.png" alt="card 1">
+                        <h2 class="option-title">manage billing</h2>
+                        <p class="option-description">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus lobortis dui in primis massa sit etiam tempor odio. Vivamus class cubilia libero id, hendrerit dolor erat lobortis.
+                        </p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                    </article>
+
+                    <!-- Card 6  -->
+                    <article class="option-card">
+                        <div class="option-card-content">
+                        <img src="./src/assets/imgs/card6.png" alt="card 1">
+                        <h2 class="option-title">Abstract support</h2>
+                        <p class="option-description">
+                            Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus lobortis dui in primis massa sit etiam tempor odio. Vivamus class cubilia libero id, hendrerit dolor erat lobortis.
+                        </p>
+                        <a href="#" class="learn-more">Learn More →</a>
+                    </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Coluna 1 -->
+                <div class="footer-column">
+                    <h3>Abstract</h3>
+                    <nav aria-label="Abstract">
+                        <ul>
+                            <li><a href="#">Branches</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <!-- Coluna 2 -->
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <nav aria-label="Resources">
+                        <ul>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Release Notes</a></li>
+                            <li><a href="#">Status</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <!-- Coluna 3 -->
+                <div class="footer-column">
+                    <h3>Community</h3>
+                    <nav aria-label="Community">
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Dribbble</a></li>
+                            <li><a href="#">Podcast</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <!-- Coluna 4 -->
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <nav aria-label="Company">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Legal</a></li>
+                        </ul>
+                    </nav>
+                </div>
+    
+                <!-- Coluna 5 -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <nav aria-label="Contact">
+                        <ul>
+                            <li><a href="mailto:info@abstract.com">info@abstract.com</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; Copyright 2025</p>
+                <p>Abstract Studio Design, Inc.</p>
+                <p>All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
